@@ -1,0 +1,243 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: "PingFang SC", "Microsoft yahei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /*vertical-align: baseline*/
+}
+
+input {
+    /* appearance: none !important; */
+    -moz-appearance: none !important;
+    outline: none !important;
+    -moz-outline: none !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+body,
+html {
+    height: 100%
+}
+
+body {
+    font-size: 14px
+}
+
+[v-cloak] {
+    display: none
+}
+
+:focus {
+    outline: 0
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th {
+    word-break: keep-all;
+    font-weight: normal
+}
+
+iframe,
+img {
+    border: none;
+    text-decoration: none
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    font-family: inherit
+}
+
+select {
+    margin: inherit
+}
+
+i {
+    font-style: normal
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    visibility: visible
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* elementui样式重写开始 */
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #1481ff;
+    border-color: #1481ff
+}
+
+.el-checkbox__inner:hover {
+    border-color: #1481ff
+}
+
+.el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: #1481ff;
+}
+
+.el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #999
+}
+
+.forgetMain .el-input__inner {
+    line-height: 60px;
+    height: 60px;
+}
+
+.el-input__inner:focus {
+    border-color: #DCDFE6;
+}
+
+
+/* .el-input__suffix{
+    line-height: 60px;
+} */
+
+.flow-select .el-input__suffix {
+    line-height: 33px;
+}
+
+.flowTableInput .el-input__inner {
+    height: 40px;
+    line-height: 40px;
+}
+
+.flowTableInput .el-input__suffix {
+    line-height: 40px;
+}
+
+.secondBox .el-input-group__append {
+    background: #D9A76A;
+    color: #fff;
+    border-color: #D9A76A;
+    cursor: pointer;
+}
+
+.page-container .dialog-container .dialog-row .input-box input[type='text'],
+.page-container .dialog-container .dialog-row .input-box input[type='number'],
+.page-container .dialog-container .dialog-row .input-box select {
+    border: 1px solid #DCDFE6 !important;
+}
+
+.el-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.el-dialog {
+    margin: 0 !important;
+}
+
+.el-input.is-disabled .el-input__inner {
+    background-color: #fff !important;
+}
+
+.el-upload-list__item {
+    transition: none !important;
+}
+
+.el-textarea__inner {
+    resize: none;
+}
+
+
+/* elementui样式重写结束 */
