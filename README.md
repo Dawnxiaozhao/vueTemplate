@@ -36,3 +36,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## cnpm install vue-wxlogin --save-dev 微信扫码登录 https://www.jianshu.com/p/2a0e02166e93
 ## npm install --save image-conversion 压缩图片
 ## npm install --save qrcodejs2 转二维码
+
+## 测试提交
