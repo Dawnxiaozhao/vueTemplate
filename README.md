@@ -37,4 +37,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## npm install --save image-conversion 压缩图片
 ## npm install --save qrcodejs2 转二维码
 
-## 测试提交
+## 测试提交  
